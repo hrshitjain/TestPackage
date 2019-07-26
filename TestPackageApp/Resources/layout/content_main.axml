@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	tools:showIn="@layout/activity_main">
+	<Button
+		android:id="@+id/btnShowPackages"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="Show Packages"
+		android:padding="10dp" />
+	<Button
+		android:id="@+id/btnAddPackage"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Enter Package Dimms"
+		android:padding="10dp" />
+
+</LinearLayout>
